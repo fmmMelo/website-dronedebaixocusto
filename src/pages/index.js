@@ -15,7 +15,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Flexibilidade no manuseio</>,
+    title: <>Disponibilização do projeto</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -25,7 +25,7 @@ const features = [
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Ótimo custo beneficio</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -35,7 +35,7 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Usando Arduino</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
@@ -55,7 +55,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">Drone de Baixo Custo</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
@@ -63,7 +63,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={withBaseUrl('docs/doc1')}>
+              to={withBaseUrl('docs/introduct')}>
                 Conheça mais
             </Link>
           </div>

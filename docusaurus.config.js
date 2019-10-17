@@ -1,13 +1,7 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 
 module.exports = {
-  title: 'Meu Site',
-  tagline: 'The tagline of my site',
+  title: 'D B C',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -21,9 +15,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/doc1', label: 'Documentação', position: 'right'},
+        {to: 'docs/introduct', label: 'Documentação', position: 'right'},
         {to: 'blog', label: 'Blog', position: 'right'},
-        {to: '', label: 'Comunidade', position: 'right'},
+        {href:'https://dbcteste.groupanic.net', label: 'Comunidade', position: 'right'},
         {
           to: '',
           alt: 'Modo daltonismo',
@@ -35,20 +29,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentação',
           items: [
             {
-              label: 'Docs',
-              to: 'docs/doc1',
+              label: 'Documentação',
+              to: 'docs/introduct',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidade',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Forúm',
+              href: 'https://dbcteste.groupanic.net',
             },
           ],
         },
@@ -63,10 +57,9 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'https://docusaurus.io/img/oss_logo.png',
+        
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Felipe Melo.`,
     },
   },
   presets: [
