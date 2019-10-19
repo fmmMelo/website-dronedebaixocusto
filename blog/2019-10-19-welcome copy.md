@@ -1,6 +1,6 @@
 ---
-id: BemVindo
-title: Bem-vindo!
+id: proximos
+title: Proximos passos
 author: Felipe Melo Moura
 authorTitle: Front End and Back End @DroneDeBaixoCusto
 authorURL: https://github.com/fmmMelo

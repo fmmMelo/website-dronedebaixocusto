@@ -1,39 +1,41 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 module.exports = {
-  title: 'D B C',
-  tagline: '',
+  title: 'Drone de Baixo Custo',
+  tagline: 'Seja bem-vindo ao nosso website',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'fmmMelo', // Usually your GitHub org/user name.
-  projectName: 'website---DBC-', // Usually your repo name.
+  projectName: 'website-DronedeBaixoCusto', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'D B C',
+      title: 'Drone de Baixo Custo',
       logo: {
-        alt: ' Logo DBC',
+        alt: 'Logo DBC',
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/introduct', label: 'Documentação', position: 'right'},
+        {to: 'docs/doc1', label: 'Documentação', position: 'right'},
         {to: 'blog', label: 'Blog', position: 'right'},
-        {href:'https://dbcteste.groupanic.net', label: 'Comunidade', position: 'right'},
-        {
-          to: '',
-          alt: 'Modo daltonismo',
-          position: 'right',
-        },
+        {href: 'https://dbcteste.groupanic.net', label: 'Comunidade', position: 'right'},
+        {href: 'https://github.com/fmmMelo/website-dronedebaixocusto', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Documentação',
+          title: 'Manual',
           items: [
             {
               label: 'Documentação',
-              to: 'docs/introduct',
+              to: 'docs/doc1',
             },
           ],
         },
@@ -56,10 +58,7 @@ module.exports = {
           ],
         },
       ],
-      logo: {
-        
-      },
-      copyright: `Copyright © ${new Date().getFullYear()} Felipe Melo.`,
+      copyright: `Copyright © ${new Date().getFullYear()} DBC, Inc. Built with Docusaurus.`,
     },
   },
   presets: [

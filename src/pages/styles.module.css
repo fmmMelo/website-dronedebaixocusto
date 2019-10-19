@@ -10,33 +10,69 @@
  * and scoped locally.
  */
 
-.heroBanner {
+.heroBanner
+{
   padding: 10rem 0;
-  text-align: center;
+  text-align: justify;
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 966px)
+{
   .heroBanner {
     padding: 2rem;
   }
 }
 
-.buttons {
+.buttons
+{
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  border-width: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 185px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 650;
+  transition: 0.5s;
 }
 
-.features {
+.buttons:hover
+{
+  background: #fff;
+  outline: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.features
+{
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 8rem 0;
   width: 100%;
 }
 
-.featureImage {
+.featureImage
+{
   height: 200px;
   width: 200px;
+}
+
+.image
+{
+  top: 5%;
+  left: 50%;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-items: flex-end;
+  height: 400px;
+  width: 650px;
 }

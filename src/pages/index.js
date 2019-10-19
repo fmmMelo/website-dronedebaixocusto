@@ -15,7 +15,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Disponibilização do projeto</>,
+    title: <>Baixo custo para melhor acessibilidade</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -25,7 +25,7 @@ const features = [
     ),
   },
   {
-    title: <>Ótimo custo beneficio</>,
+    title: <>Estruturação impressa em 3D </>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -35,8 +35,8 @@ const features = [
     ),
   },
   {
-    title: <>Usando Arduino</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Contrução e processamento com Arduino</>,
+    imageUrl: 'img/placa_uno.png',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -55,15 +55,15 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Drone de Baixo Custo</h1>
+          <img className={styles.image} src="img/drone.png" alt="image Test"></img>
+          <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={withBaseUrl('docs/introduct')}>
+              className={
+                styles.buttons
+              }
+              to={withBaseUrl('docs/doc1')}>
                 Conheça mais
             </Link>
           </div>
